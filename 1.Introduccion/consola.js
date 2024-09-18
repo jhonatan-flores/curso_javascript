@@ -1,17 +1,30 @@
-//para mostrar texto plano
-console.log("para mostrar texto plano")
-//para mostrar texto informativo
-console.info("mensaje informativo")
-//para mostrar texto alerta
-console.warn("Mensaje tipo alerta")
-//para mostrar texto error
-console.error("mensaje tipo error")
-// mensaje por consola de gestion de tiempo
-console.time("mi programa averiga la edad se ejecuta en")
-edad=17
+// para mostrar texto sin formato o texto plano
+console.log("hola mundo")
+// mostarr un mensaje de estilo imformativo
+console.log("mensaje informativo")
+//mostrar un mensaje de estilo a tipo alerta
+console.warn("mensaje de tipo alerta")
+// mostrar un mensaje de estilo 9o tipo error
+console.error("mensaje de tipo error")
+
+// mensaje por consola por gestion de tiempo
+console,time("tiempo de ejecucion")
+edad=18
 if(edad>=18){
     console.log("eres mayor de edad")
 }else{
-    console.log("eres menor de edad")
+    console.warn("eres ´pulpin")
 }
-console.timeEnd("mi programa averiga la edad se ejecuta en")
+
+console.timeEnd("tiempo de ejecucion")
+
+//mensaje de tipo tabla
+console.table("soy una tabla")
+
+lengujes=[
+    {nombre:"javascript", extencion:".js"},
+    {nombre:"python", extencion:".py"},
+    {nombre:"php", extencion:".php"},
+]
+console.log(leguajes)
+console.table(leguajes)

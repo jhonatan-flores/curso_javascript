@@ -66,3 +66,40 @@ if(edad>=18){
 }
 ```
 #### 3. tablas 
+este tipo de mensaje por consola nos muestra la imformacion en una tabla,.
+solo formateara a los datos de tipo `array` y `objetos`.
+```js
+```
+
+## naiming
+es la tecnica para nombrar variables, funcion y clases dentro de un lenguaje de progrmacion
+las variables tienen reglas muy especificas que debemos seguir a la hora de designar sus nombres.
+### usos incorrectos
+- no se puede usar espacios.
+>[!WARNING]
+```js
+> # Incorrecto
+con espacio=45
+```
+- no usar un numero delante
+>[!WARNING]
+```js
+> # Incorrecto
+1numero=45
+```
+- evitar simbolos y `snake_case`
+>[!WARNING]
+```js
+> # Incorrecto
+dame$=45
+> incorrecto
+con_guiones_bajos="no es correcto"
+```
+### usos correctos
+- debemos usar nombres que expliquen que aportara esa variable a nuestro codigo
+- usar `camelcare`
+>[!INFORMATION]
+```js
+> # Correcto
+edadAlumno=45
+```
