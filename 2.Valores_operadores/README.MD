@@ -9,27 +9,40 @@ cada valor tiene una funcionalidad distinta puede ser un numero un texto o una f
 cuando hablamos de tipos de datos en javascript
 nos referimos a su representancion binaria al tipo de valor que usamos
 
-### datos primitivos
+## datos primitivos
 son aquellos datos que ya existen no pueden ser creados, actualizados ni eliminados solo pueden ser llamados para el uso que deseamos darle.
 los datos primitivos en javascript son
-#### - Numeros (Number)
+### - Numeros (Number)
 los valores de tipo numero, como es de esperar son numeros y en javascript se escribe o se hace el llamado dee este valor de la siguiente manera
 - numero de tipo entero
-js
+#### Entero
+```js
+// entero positivo
 20
+//entero negativo
+-20
 // estamos usando un praton de bits para el numero 20 que existira dentro de la memoria de trabajo.
+```
+#### decimal
+```js
+//decimal positivo
+.0
+//decimal negativo
+-0.
+```
 
 - numero de punto flotante decimal fraccion
-js
+```js
 2.7
 0.
 .0
-
+```
 - numeros de tipo notacion cientifica
-js
+```js
 2.998e8
 //2.998 * 10^8
-
+```
+#### notacion cientifica
 >[!WARNING]
 > cuando javascript realiza operacion con numeros enteros el resultado siempre sera exacto, cuando realize operacion con numeros decimales el resultado perdera precision por que solo tiene 64 para almacenar el numero esto suele ocurrir con resultados cuyos decimales sean infinitos como el caso del numero PI **es nuetra responsabilidad como programadores hacer el uso de los decimales con aproximaciones para evitar errores**
 ---
@@ -38,3 +51,12 @@ js
 
 - tipos (tipos de datos)
 - operadores
+
+#### mumeros especial
+en javascript existen tres valores de tipo numero que se concideran un dato primitivo numero de tipo especial
+```js
+infinity
+- infinity
+NaN
+//Cuando el resultado de una operacion es matematicamente inposible
+```
