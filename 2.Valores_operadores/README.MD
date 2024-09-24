@@ -60,3 +60,4 @@ infinity
 NaN
 //Cuando el resultado de una operacion es matematicamente inposible
 ```
+#### Aritmetica(Operadores Aritmetica)
