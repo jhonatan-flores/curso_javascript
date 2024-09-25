@@ -1,6 +1,9 @@
 # Valores, Tipos y Operadores
 ## indice
 - [ tipos de datos o valores](#valores)
+  - [ valores](#valores)
+    - [datos primitivos](#datos-primitivos)
+      - [numeros](#numero)
 ## valores
 imagina un mar de bits. una computadora moderna tiene mas de 100 mil millones de bits almacenados en su memoria de trabajo`o`memoria principal`o`memoria volatil`o`ram.
 ahora la memnoria no volatil o memoria secundaria tiene estos bits de manera ordenada generalmente apilada como si de un estante de una biblioteca se tratara.
@@ -21,7 +24,7 @@ los valores de tipo numero, como es de esperar son numeros y en javascript se es
 20
 //entero negativo
 -20
-// estamos usando un praton de bits para el numero 20 que existira dentro de la memoria de trabajo.
+//estamos usando un praton de bits para el numero 20 que existira dentro de la memoria de trabajo.
 ```
 #### decimal
 ```js
@@ -61,3 +64,18 @@ NaN
 //Cuando el resultado de una operacion es matematicamente inposible
 ```
 #### Aritmetica(Operadores Aritmetica)
+La principal operacion que se puede haer con numero es la aritmetica.
+Para esto tenemos los operadores aritmeticas como:
+
+- suma(+).
+- resta(-).
+- multiplicacion(*).
+- divicion(/).
+- potencia(^).
+- modulo(%).
+
+**podemos agrupar operaciones con parentisis () las operaciones que estan entre los los parenticis se ejecuta primero**
+
+consulta el archivo de operadores[aqui](./OPERADORES.js)
+
+ve los ejercicios [aqui](./ejercicios.js)
