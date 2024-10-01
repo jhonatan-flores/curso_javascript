@@ -13,6 +13,8 @@
       - [cadenas](#cadenas)
       - [conquetanacion](#conquetanacion)
       - [Plantillas Literales](#plantillas-literares)
+      - [Opreadores unarios](#operadores-unarios)
+      - [Valores Boleanos](#valores-boleanos)
 ## valores
 Imagina unmar de bits.
 Una computadora moderna tiene mas de 100 mil millones de bits almacenados en su `memoria de trabajo`o`memoria principal`o`memoria volatil`o`ram`.
@@ -143,3 +145,37 @@ Las plantillas literalaes mencionados anteriormente con el nombre de acentas gar
 ```
 > [!TIP]
 > se dice literal por que con el formato que codificamos sera mostrado de esa misma forma en la consola
+#### Operadores Unarios
+No todos los operadores son simbolos , algunos se escriben como palabras.
+Un ejemplo es el operador `typeof`, este operador produce un valor de cadena que indica el tipo de valor que le proporcionamos.
+
+`operadores binarios` se les conoce porque operan sobre 2 valores `2*5`.
+
+`operador unario` por que solo trabaja con un valor.
+
+```js
+//para poder ver su funcionalidad o el valor que genera siempre debemos mostrar en un console
+console.log(typeof 5)
+```
+
+#### Valores Boleanos
+este tipo de dato primitivo es util cuando tenemos un valor que distinga solo entre 2 posibilidades como `si` y `no` o `encendido` y `apagado`.
+Para este proposito js tiene un tipo de dato`Booleano`, que tiene solo dos valores,`true`y `false`.
+
+**¿Que formas de producir valores boleanos tenemos?**
+1. **Usando Operadores de Comparación**
+  los operadore de comparacion son los siguientes:
+
+  - Mayor que(>)
+  - Menor que(<)
+  - Mayor o igual que(>=)
+  - Menor o igual que(<=)
+  - igual a (==)
+  - Extrictamente igual(===)
+  - No es igual a (!=)
+2. **operadores logicos**
+JavaScript soporta tres operadores logicos
+- and(y) represenctacion de javascript(`&&`)
+-or(o) representacion de javascript(`||`)
+-not(no) repesentacion de javascript(`!`)
+**Observacion** este es un operador unario que su funcion es invertir el valor que tiene a su derecha `!true` produce `false`
