@@ -42,3 +42,6 @@ console.log(!false)
 
 //averiguar por que sale false en este caso
 console.log("hola"in "hola" , "mundo")
+/*
+Javascript no está buscando el valor de hola, esta buscando si hay una posición llamado "hola" en esta lista las posiciones, son números como (0 y 1) por eso da False 
+*/
