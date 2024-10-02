@@ -21,11 +21,24 @@ console.log("Ardvark"<"Zoroaster")
 // en caso del operador && su resultado su resultado sera verdadero solo si ambos balores son verdaderos
 console.log(true && false)
 console.log(true && true)
-
+// observacion: si ambos valoresson verdaderos devolvera el segundo valor
+ console.log(`hola` && `mundo`)
+ //OBSERVACION: en caso exista un valor verdadero y uno falso devolvera el valor falso
+ console.log(0 && `hola`)
 // en caso del opeerador || produce verdaero si cualquiera de su valores datos es verdadero
 console.log(false||false)
 console.log(true||false)
 
+//
+respuesta=" "
+console.log(respuesta||"tu busqueda no exise")
+console.log(0||"")
 //en caso del operador ! invierte el valor dado
 console.log(!true)
 console.log(!false)
+
+//usando el operador relacional
+//solo funciona en objetos
+
+//averiguar por que sale false en este caso
+console.log("hola"in "hola" , "mundo")
