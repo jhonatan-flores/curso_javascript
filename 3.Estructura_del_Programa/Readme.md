@@ -1,8 +1,14 @@
 # Estructura del programa
 ## Indice
 
-- [Interacion con el usuario](#interaccion-basica-con-el-usuario)
-- [Expreciones y Declaraciones](#expreciones-y-declaraciones)
+- [Estructura del programa](#estructura-del-programa)
+  - [Indice](#indice)
+  - [interaccion basica con el usuario](#interaccion-basica-con-el-usuario)
+  - [Expreciones y Declaraciones](#expreciones-y-declaraciones)
+  - [bindins (enlaces)](#bindins-enlaces)
+  - [El entorno](#el-entorno)
+  - [Control de flujos](#control-de-flujos)
+    - [Ejecucion condicional](#ejecucion-condicional)
 
 
 ## interaccion basica con el usuario
@@ -38,3 +44,47 @@ respuesta =window.prompt("¿como te llamas?")
 !true;
 let estado=!false;
 ```
+## bindins (enlaces)
+Cuando creamos un valorde estos valores son volatiles solo existen en la ejecucion del programa y solo cuando son llamados.
+El bingings o enlace es la manera que JS recuerda los valores y mantiene un estado interno haci como la reutilizacion de valores.
+
+**¿Como usamos los bingins en javaescripts?**
+
+Para usar el bingins primero debemos usar la palabra reservada o `keyword` de nombre `let`, despues devemos darle un nombre para identificar el enlace luego asignarle el valor.
+```js
+34
+// este es un enlace que puede apuntar a varios valores como un pulpito con muchos barazos
+let edadPersona = 34
+// si deseamos que nuestro enlace solo apunte a un valor osea un pulpito con un bracito entonces para crear este enlace debemos hacer uso de de la keyword const
+const edad =45;
+//este enlace siempre apuntara al valor 45 no podra modificar su enlace a otro valor.  
+```
+
+>[!NOTE]
+>**¿Que nombre ponerle a nuestro enlace?** - El nombre de un enlace devera describir el valor al que esta enlasado, y devera estar escrita en `camelCase` 
+
+```js
+//quiero crear un enlace que tenga el valor de la fecha actual
+//incorrecto
+let yyyymmdd ="20240910";
+//correcto
+let fecheActual="09-10-2024";
+// correcto
+let edadActualAlumno=34;
+```
+## El entorno
+el entorno es conocido como el momento en el que se ejuta o inicia un archivo `JS`.
+
+el entorno al crearce no se crea vacio dentro dentro del entorno se crearan la conexion de enlaces y valores
+**tarea**
+averiguar mas sobre la ejecucion en linea de la ejecucion de linea en linea de los entornos
+## Control de flujos
+una centencia se ejecuta como si fuera una historia de arriba a avajo, por ejemplo
+
+```js
+let elNumero = prompt("elije un numero")
+console.log(`tu numero es la raiz cuadrada de: ${elNumero*elNumero}`)
+// primero le pide al usuario un numero y despues muestra un mensaje y el cuadrado de ese numero 
+```
+### Ejecucion condicional
+hacemo uso de este control de flujo cuando tenemos distintos camino o distintos mensaje que deseamos mostratrar segun una condicion.
