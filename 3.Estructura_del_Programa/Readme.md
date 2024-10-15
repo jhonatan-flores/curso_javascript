@@ -88,3 +88,13 @@ console.log(`tu numero es la raiz cuadrada de: ${elNumero*elNumero}`)
 ```
 ### Ejecucion condicional
 hacemo uso de este control de flujo cuando tenemos distintos camino o distintos mensaje que deseamos mostratrar segun una condicion.
+**Como creamos una condicion en javascript**
+La ejecucion condicional se crea con la palabra reservada (keyword)
+`if` a continuacion de una `condicion` en llaves`{}`se escriba el cuerpo del codigo que deseo ejecutaren caso de la condicion sea `verdad`
+- **condicion simple `if`**
+```js
+let comparacion =5>4
+if true{
+    prompt("escribe tu nombre: ")
+}
+```
