@@ -6,5 +6,6 @@
 ## Ejercicios
 ### 1. Pedir al usuario dos numeros al realizar el producto de ambos determinar en una condicion de una sola linea si el resultado es mayor al 100
 ### 2. pedir al usuario una conttraseña que devera ser verificada en una condicion simple si es la contraseña correcta
+### 3. Pedir al usuario un numero y determina si es un numero primo
 ## recomendacion:
 ### solo se podra usar una condicion simple con cuerpo o de una sola linea 
